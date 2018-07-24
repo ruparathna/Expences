@@ -73,10 +73,11 @@ public class login extends AppCompatActivity {
             pdLoading.show();
         }
 
+        //comment hhh
         protected String doInBackground(String... params) {
             try {
                 url = new URL("http://foodie.sanila.tech/tera/login.php");
-                //url = new URL("http://localhost/Login.php");
+                // url = new URL("http://localhost/Login.php");
             } catch (MalformedURLException e) {
                 e.printStackTrace();
                 return "exception";
