@@ -73,7 +73,7 @@ public class login extends AppCompatActivity {
             pdLoading.show();
         }
 
-        //comment hhh
+        //comment 
         protected String doInBackground(String... params) {
             try {
                 url = new URL("http://foodie.sanila.tech/tera/login.php");
