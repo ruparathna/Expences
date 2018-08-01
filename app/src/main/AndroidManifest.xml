@@ -26,7 +26,8 @@
             android:name=".Main"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Registration"></activity>
+        <activity android:name=".Registration" />
+        <activity android:name=".individualbudget"></activity>
     </application>
 
 </manifest>
