@@ -27,7 +27,8 @@
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Registration" />
-        <activity android:name=".individualbudget"></activity>
+        <activity android:name=".individualbudget" />
+        <activity android:name=".familybudget"></activity>
     </application>
 
 </manifest>
